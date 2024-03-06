@@ -23,3 +23,16 @@ function child_enqueue_styles() {
 }
 
 add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
+add_filter( 'wp_nav_menu_items','add_admin_link', 10, 2 );
+
+function add_admin_link( $items, $args ) {
+
+    if (is_user_logged_in()) {
+
+        $items .= '<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a class="menu-link" href="'. get_admin_url() .'">Admin</a></li>';
+
+    }
+
+    return $items;
+
+}

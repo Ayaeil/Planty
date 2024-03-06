@@ -9,3 +9,202 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: astra-child
 Template: astra
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap');
+
+
+
+#menu-item-38 {
+    order: 3;
+    background:#D2776A;
+    color: white;
+    width: 236px;
+    text-align: center;
+}
+.main-header-menu > .menu-item > .menu-link, #astra-footer-menu > .menu-item > .menu-link {
+    justify-content: center;
+}
+
+
+#ast-hf-menu-1{
+    margin-top: 16px;
+}
+
+
+.main-header-menu .menu-item, #astra-footer-menu .menu-item, .main-header-bar .ast-masthead-custom-menu-items {
+   min-width: 155px;
+}
+
+
+#menu-item-38 a {
+    color: white;
+}
+/*   .wpcf7 form p {
+
+    display: flex;
+    justify-content: space-around;
+} */
+.h4 {
+    text-align: center;
+
+}
+
+.wpcf7 form img {
+    max-width: 100%;
+    object-fit: cover;
+    width: 192px;
+    height: 128px;
+   }
+
+
+.separateur-horiz{
+    transform: rotateZ(270deg);
+    height: 2px;
+    position: absolute;
+    width: 486px;
+    left: 29%;
+    top: 59%;
+   }
+
+.fruits-container {
+    width: 100%;
+    border-radius: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 16px; 
+    flex-wrap: wrap;
+}
+
+.fruits-container figcaption {
+    position: absolute;
+
+}
+
+.form-control .wpcf7-form-control {
+    width: 42px !important;
+    height: 56px;
+    margin: auto;
+    display: block;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 860px;
+    margin: auto;
+}
+.footer-nav-wrap .menu-item-37{
+    
+    display: none !important;
+}
+
+.form-container label {
+color: white;
+font-family: "Syne", sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+.elementor-element-10a26b8 {
+    background-color: #3B8E46;
+}
+
+.form-control figure{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.form-control figcaption{
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Syne', sans-serif;
+}
+
+.form-container input[type=text], .form-container input[type=email] {
+  max-width: 383px;
+  border-radius: 7px;
+  height: 71px;
+  margin-top: 20px;
+
+}
+.elementor-element-4a5009d {
+    background-color: #3B8E46;
+}
+
+
+
+   .wpcf7 input {
+    width: 184px;
+   }
+   
+   .elementor-element-6d068b5 {
+    background-color: white;
+   }
+
+   .elementor-element-4934708 {
+    background-color: white;
+   } 
+
+   .elementor-kit-45 h4{
+    margin-top: 50px;
+   }
+    .wpcf7-form input[type="submit"]{
+        margin: auto;
+        display: block;
+
+    }
+    .elementor-element-3d0fecf {
+        background-color: white;
+        background-size: auto;
+    }
+
+    .elementor-element-097295e {
+        background-size: auto;
+    }
+    
+    .gallery-item {
+        position:relative;
+    }
+    .wp-caption-text {
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .ast-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .footer-nav-wrap a{
+        color: black
+    }
+
+
+    @media only screen and (max-width: 962px) {
+
+        .separateur-horiz{
+            display: none;
+        }
+
+    }
+
+
+    @media only screen and (max-width: 612px) {
+
+        .form-container input[type=text], .form-container input[type=email] {
+            max-width: 100%;
+        }
+
+       
+
+        .form-container {
+            flex-direction: column;
+        }
+
+      }
